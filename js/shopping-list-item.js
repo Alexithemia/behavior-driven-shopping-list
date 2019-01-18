@@ -18,7 +18,7 @@ class Item {
     let spanEnd = '</span>';
     let removeButton = "<button onclick='removeItemButtonClicked(" + num + ")'>X</button>"
 
-    let listItem = spanStart + this.name + spanEnd;
+    let listItem = spanStart + this.name + ' -' + spanEnd;
     listItem += spanStart + this.description + spanEnd;
 
     if (this.isDone === false) {

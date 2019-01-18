@@ -5,16 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+  <link rel='stylesheet' href='/css/style.css'>
+  <title>Shopping-List</title>
 </head>
 
 <body>
-  <form id='addItemForm'>
-    <input type='text' id='title'>
-    <input type="text" id='description'>
-    <button id='addShoppingListItemButton'>Add to Shopping List</button>
-  </form>
-  <div id=content>
+  <div class='container'>
+    <form id='addItemForm'>
+      <div>Item Name</div>
+      <input type='text' id='title'>
+      <div>Description</div>
+      <input type="text" id='description'>
+      <button id='addShoppingListItemButton'>Add to Shopping List</button>
+    </form>
+    <div id='pageTop'>My Shopping List</div>
+    <div id=content>
+    </div>
   </div>
   <script src="js/shopping-list-item.js"></script>
   <script src="js/shopping-list.js"></script>

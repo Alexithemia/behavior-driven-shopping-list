@@ -1,0 +1,58 @@
+body{
+  display:flex;
+  justify-content: center;
+  background-image: url(../assets/sky.jpg);
+}
+.container{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 50vw;
+  background-image: url(../assets/paper.jpeg);
+  min-height: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px dimgray;
+}
+#addItemForm{
+  display: flex;
+  flex-flow: column;
+  width: 100px;
+}
+#addItemForm input{
+  border-radius: 5px;
+}
+#addShoppingListItemButton{
+  border-radius: 10px;
+}
+#pageTop{
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+}
+#content ul li span{
+  margin:5px;
+  font-family: 'Homemade Apple', cursive;
+}
+#content{
+
+}
+#content ul li button{
+  border-radius: 10px;
+  border-color: red;
+  background-color: red
+}
+.completed_true{
+  text-decoration: line-through;
+}
+
+@media screen and (max-width:760px)
+{
+  .container{
+    width:70vw;
+  }
+}
+@media screen and (max-width:430px)
+{
+  .container{
+    width:90vw;
+  }
+}
